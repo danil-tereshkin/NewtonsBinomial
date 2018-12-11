@@ -1,0 +1,20 @@
+div.mathema {
+    position: relative;
+}
+
+div.formula {
+    margin: auto;
+    height: 51px;
+    width: 169px;
+    border: 1px solid green;
+    text-align: center;
+}
+
+div.formula:after {
+    position: absolute;
+    content: '(12.2)';
+    line-height: 51px;
+    top: 0px;
+    right: 0;
+
+}
